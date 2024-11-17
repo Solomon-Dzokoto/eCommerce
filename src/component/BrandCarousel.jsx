@@ -4,7 +4,7 @@ import './css/BrandCarousel.css';
 
 const BrandCarousel = ({ slides }) => {
   const [curr, setCurr] = useState(0);
-  const itemsPerSlide = 4; 
+  const itemsPerSlide = 4;
 
   const groupedSlides = [];
   for (let i = 0; i < slides.length; i += itemsPerSlide) {
@@ -51,10 +51,10 @@ const BrandCarousel = ({ slides }) => {
       </div>
       <div className="absolute inset-0 flex items-center justify-between p-4">
         <button onClick={prev}>
-          <IoIosArrowBack className="text-green-600 text-xl md:text-5xl lg:text-6xl" />
+          <IoIosArrowBack className="text-sky-600 text-xl md:text-5xl lg:text-6xl" />
         </button>
         <button onClick={next}>
-          <IoIosArrowForward className="text-green-600 text-xl md:text-5xl lg:text-6xl" />
+          <IoIosArrowForward className="text-sky-600 text-xl md:text-5xl lg:text-6xl" />
         </button>
       </div>
     </div>

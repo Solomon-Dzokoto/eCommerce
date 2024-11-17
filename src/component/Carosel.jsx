@@ -27,16 +27,16 @@ const Carosel = ({ children: slides }) => {
             </div>
             <div className='absolute inset-0 flex items-center justify-between p-4'>
                 <button onClick={prev}>
-                    <IoIosArrowBack className="text-green-600 text-4xl md:text-5xl lg:text-6xl" />
+                    <IoIosArrowBack className="text-sky-500 text-4xl md:text-5xl lg:text-6xl" />
                 </button>
                 <button onClick={next}>
-                <IoIosArrowForward className="text-green-600 text-4xl md:text-5xl lg:text-6xl" />
+                <IoIosArrowForward className="text-sky-500 text-4xl md:text-5xl lg:text-6xl" />
                 </button>
             </div>
             <div className='absolute bottom-4 right-0 left-0'>
                 <div className='flex items-center justify-center gap-2'>
                     {slides.map((_, i) => (
-                        <div key={i} className={`transition-all w-3 h-3 bg-green-500 rounded-full ${curr === i ? 'p-2' : 'bg-opacity-50'}`}/>
+                        <div key={i} className={`transition-all w-3 h-3 bg-sky-500 rounded-full ${curr === i ? 'p-2' : 'bg-opacity-50'}`}/>
                     ))}
                 </div>
             </div>

@@ -29,15 +29,15 @@ const ProductContent = () => {
   
 
   const products = [
-    { imgSrc: pic1, productName: 'Oupidatat non', link: link, sizes: sizes,  price: '250.00' },
-    { imgSrc: pic2, productName: 'Oupidatat non', link: link, sizes: sizes,  price: '260.00' },
-    { imgSrc: pic3, productName: 'Oupidatat non', link: link, sizes: sizes,  price: '270.00' },
-    { imgSrc: pic4, productName: 'Oupidatat non', link: link, sizes: sizes,  price: '280.00' },
-    { imgSrc: pic5, productName: 'Oupidatat non', link: link, sizes: sizes,  price: '290.00' },
-    { imgSrc: pic6, productName: 'Oupidatat non', link: link, sizes: sizes,  price: '300.00' },
-    { imgSrc: pic7, productName: 'Oupidatat non', link: link, sizes: sizes,  price: '310.00' },
-    { imgSrc: pic8, productName: 'Oupidatat non', link: link, sizes: sizes,  price: '320.00' },
-    { imgSrc: pic9, productName: 'Oupidatat non', link: link, sizes: sizes,  price: '330.00' },
+    { imgSrc: pic1, productName: 'Casual Hoodie', link: link, sizes: sizes,  price: '250.00' },
+    { imgSrc: pic2, productName: 'Blazer', link: link, sizes: sizes,  price: '260.00' },
+    { imgSrc: pic3, productName: 'Abaya', link: link, sizes: sizes,  price: '270.00' },
+    { imgSrc: pic4, productName: 'Hoodies', link: link, sizes: sizes,  price: '280.00' },
+    { imgSrc: pic5, productName: 'Suit Jacket', link: link, sizes: sizes,  price: '290.00' },
+    { imgSrc: pic6, productName: 'Black Abaya', link: link, sizes: sizes,  price: '300.00' },
+    { imgSrc: pic7, productName: 'Coat', link: link, sizes: sizes,  price: '310.00' },
+    { imgSrc: pic8, productName: 'Active Wears', link: link, sizes: sizes,  price: '320.00' },
+    { imgSrc: pic9, productName: 'Leggings', link: link, sizes: sizes,  price: '330.00' },
   ];
 
   const productsPerPage = 6;

@@ -35,9 +35,9 @@ const FeaturedProduct = () => {
             <div className="p-5">
                 <div className="flex justify-between md:block">
                     <div className="flex mb-2">
-                    <ol><FaStar size={25} color="#ede861"/></ol>
-                    <ol><FaStar size={25} color="#ede861"/></ol>
-                    <ol><FaStar size={25} color="#ede861"/></ol>
+                    <ol><FaStar size={25} className="text-yellow-400"/></ol>
+                    <ol><FaStar size={25} className="text-yellow-400"/></ol>
+                    <ol><FaStar size={25} className="text-yellow-400"/></ol>
                     <ol><FaStar size={25} color="#bcbcbc"/></ol>
                     <ol><FaStar size={25} color="#bcbcbc"/></ol>
                     </div>
@@ -47,10 +47,10 @@ const FeaturedProduct = () => {
                 </div>
                 
               <h1 className="mt-3 font-thin text-3xl">
-                Gym Weight
+              Torch
               </h1>
               <h1 className="font-thin text-xl mb-6">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in culpa qui officia deserunt.
+              A portable light source for illuminating dark areas.
               </h1>
               <h1 className="text-[#bcbcbc] text-xl font-thin">Reviews (24)</h1>
             </div>
@@ -65,10 +65,10 @@ const FeaturedProduct = () => {
             <div class="p-5">
             <div className="flex justify-between md:block">
                     <div className="flex mb-2">
-                    <ol><FaStar size={25} color="#ede861"/></ol>
-                    <ol><FaStar size={25} color="#ede861"/></ol>
-                    <ol><FaStar size={25} color="#ede861"/></ol>
-                    <ol><FaStar size={25} color="#ede861"/></ol>
+                    <ol><FaStar size={25} className="text-yellow-400"/></ol>
+                    <ol><FaStar size={25} className="text-yellow-400"/></ol>
+                    <ol><FaStar size={25} className="text-yellow-400"/></ol>
+                    <ol><FaStar size={25} className="text-yellow-400"/></ol>
                     <ol><FaStar size={25} color="#bcbcbc"/></ol>
                     </div>
                     <div>
@@ -77,10 +77,11 @@ const FeaturedProduct = () => {
                 </div>
                 
               <h1 className="mt-3 font-thin text-3xl">
-              Cloud Nike Shoes
+              Watch
               </h1>
               <h1 className="font-thin text-xl mb-6">
-              Aenean gravida dignissim finibus. Nullam ipsum diam, posuere vitae pharetra sed, commodo ullamcorper.
+              Tells time accurately and stylishly, often including additional features such as date display, stopwatch, or heart rate monitor.
+
               </h1>
               <h1 className="text-[#bcbcbc] text-xl font-thin ">Reviews (48)</h1>
             </div>
@@ -95,9 +96,9 @@ const FeaturedProduct = () => {
             <div class="p-5">
             <div className="flex justify-between md:block">
                     <div className="flex mb-2">
-                    <ol><FaStar size={25} color="#ede861"/></ol>
-                    <ol><FaStar size={25} color="#ede861"/></ol>
-                    <ol><FaStar size={25} color="#ede861"/></ol>
+                    <ol><FaStar size={25} className="text-yellow-400"/></ol>
+                    <ol><FaStar size={25} className="text-yellow-400"/></ol>
+                    <ol><FaStar size={25} className="text-yellow-400"/></ol>
                     <ol><FaStar size={25} color="#bcbcbc"/></ol>
                     <ol><FaStar size={25} color="#bcbcbc"/></ol>
                     </div>
@@ -107,10 +108,11 @@ const FeaturedProduct = () => {
                 </div>
                 
               <h1 className="mt-3 font-thin text-3xl">
-              Summer Addides Shoes
+              Camera
               </h1>
               <h1 className="font-thin text-xl mb-6">
-              Curabitur ac mi sit amet diam luctus porta. Phasellus pulvinar sagittis diam, et scelerisque ipsum lobortis nec.
+               Preserves precious moments with vibrant images and video.
+
               </h1>
               <h1 className="text-[#bcbcbc] text-xl font-thin">Reviews (74)</h1>
             </div>

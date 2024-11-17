@@ -2,6 +2,8 @@ import React from "react";
 import pic1 from './assets/category_img_01.jpg'
 import pic2 from './assets/category_img_02.jpg'
 import pic3 from './assets/category_img_03.jpg'
+import { Link } from "react-router-dom";
+
 const FeaturedCategories = () => {
   return (
     <div className="mb-2 mx-8">
@@ -28,23 +30,23 @@ const FeaturedCategories = () => {
         <div className="lg:col-start-2 pb-20">
             <img src={pic1} alt="" className="rounded-full border my-3" />
             <h1 className="text-center text-xl font-semibold ">Watches</h1>
-            <div className="flex justify-center">
-                    <button className="bg-green-600 text-white p-2 mt-4 rounded-md">Go Shop</button>
-            </div>
+            <Link to='/product' className="flex justify-center">
+                    <button className="bg-sky-500 text-white p-2 mt-4 rounded-md">Go Shop</button>
+            </Link>
         </div>
         <div className="pb-20">
         <img src={pic2} alt="" className="rounded-full border my-3" />
             <h1 className="text-center text-xl font-semibold ">Shoes</h1>
-            <div className="flex justify-center">
-                    <button className="bg-green-600 text-white p-2 mt-4 rounded-md">Go Shop</button>
-            </div>
+            <Link to='/product' className="flex justify-center">
+                    <button className="bg-sky-500 text-white p-2 mt-4 rounded-md">Go Shop</button>
+            </Link>
         </div>
         <div className="pb-20">
         <img src={pic3} alt="" className="rounded-full border my-3" />
-            <h1 className="text-center text-xl font-semibold ">Accesories</h1>
-            <div className="flex justify-center">
-                    <button className="bg-green-600 text-white p-2 mt-4 rounded-md">Go Shop</button>
-            </div>
+            <h1 className="text-center text-xl font-semibold ">Accessories</h1>
+            <Link to='/product' className="flex justify-center">
+                    <button className="bg-sky-500 text-white p-2 mt-4 rounded-md">Go Shop</button>
+            </Link>
         </div>
       </div>
     </div>

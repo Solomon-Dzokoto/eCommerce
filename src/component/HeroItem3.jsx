@@ -9,14 +9,14 @@ const HeroItem3 = () => {
       </div>
       <div className="w-full lg:w-1/2 mb-10  flex items-center">
         <div className="text-left self-center mx-8 md:ml-32 md:w-[550px] w-full">
-          <h1 className="md:text-6xl text-5xl font-thin text-green-600 mb-3"><b>Dyne</b> eCommerce</h1>
+          <h1 className="md:text-6xl text-5xl font-thin text-sky-500 mb-3"><b>MaaH</b> eCommerce</h1>
           <h3 className="text-4xl mb-2">Tiny and Perfect eCommerce Template</h3>
           <p className='text-base' >
-          Dyne Shop is an eCommerce HTML5 CSS template with latest version of Bootstrap 5 (beta 1). 
-            This template is 100% free provided by <a rel="sponsored" className="text-green-600" href="https://templatemo.com" >TemplateMo</a> website. 
-            Image credits go to <a rel="sponsored" className="text-green-600" href="https://stories.freepik.com/" >Freepik Stories</a>,
-            <a rel="sponsored" className="text-green-600" href="https://unsplash.com/" >Unsplash</a> and
-            <a rel="sponsored" className="text-green-600" href="https://icons8.com/">Icons 8</a>.
+          MaaH Shop is an eCommerce HTML5 CSS template with latest version of Bootstrap 5 (beta 1). 
+            This template is 100% free provided by <a rel="sponsored" className="text-sky-500" href="https://templatemo.com" >TemplateMo</a> website. 
+            Image credits go to <a rel="sponsored" className="text-sky-500" href="https://stories.freepik.com/" >Freepik Stories</a>,
+            <a rel="sponsored" className="text-sky-500" href="https://unsplash.com/" >Unsplash</a> and
+            <a rel="sponsored" className="text-sky-500" href="https://icons8.com/">Icons 8</a>.
           </p>
         </div>
       </div>

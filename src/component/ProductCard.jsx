@@ -15,17 +15,17 @@ const ProductCard = ({ imgSrc, link, productName, sizes, price }) => {
           <ul className="list-unstyled">
             <li>
               <a className="btn  text-white" href={link}>
-               <FaHeart className="bg-green-500 text-5xl mb-4 p-2 rounded-lg"/>
+               <FaHeart className="bg-sky-500 text-5xl mb-4 p-2 rounded-lg"/>
               </a>
             </li>
             <li>
               <a className="btn  text-white mt-2" href={link}>
-                <FaRegEye className="bg-green-500 text-5xl mb-4 p-2 rounded-lg"/>
+                <FaRegEye className="bg-sky-500 text-5xl mb-4 p-2 rounded-lg"/>
               </a>
             </li>
             <li>
               <a className="btn  text-white mt-2" href={link}>
-                <FaCartPlus className="bg-green-500 text-5xl p-2 rounded-lg"/>
+                <FaCartPlus className="bg-sky-500 text-5xl p-2 rounded-lg"/>
               </a>
             </li>
           </ul>

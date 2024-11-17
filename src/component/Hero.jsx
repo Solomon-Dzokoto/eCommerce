@@ -13,9 +13,9 @@ const Hero = () => {
     return (
         <div className='w-full bg-[#efefef]'>
             <Carosel>
-                {slides.map((s, index) => (
+                {slides.map((data, index) => (
                     <div key={index} className="w-full">
-                        {s}
+                        {data}
                     </div>
                 ))}
             </Carosel>

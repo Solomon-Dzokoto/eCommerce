@@ -16,8 +16,7 @@ const Services = () => {
               </div>
               <div className="text-center">
                 <p className="flex justify-center font-thin text-gray-600 text-xl">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod Lorem ipsum dolor sit amet.
+                We deliver exceptional results. Our services includes increasing brand awareness,boosting sales conversion, and improving customer engagement. Let us help you achieve your business goals.
                 </p>
               </div>
             </div>
@@ -27,22 +26,22 @@ const Services = () => {
       <div className="flex align-middle justify-center mx-auto pb-16 pt-8">
         <div className="container">
           <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-4 pb-8">
-            <div className="h-full shadow-2xl text-center flex flex-col items-center justify-center align-middle py-5 mb-10 group  hover:bg-[#59ab6e] hover:text-white transition-colors duration-300 ">
-              <FaTruck className="text-7xl text-[#59ab6e] group-hover:text-white transition-colors duration-300" />
+            <div className="h-full shadow-2xl text-center flex flex-col items-center justify-center align-middle py-5 mb-10 group  hover:bg-sky-500 hover:text-white transition-colors duration-300 ">
+              <FaTruck className="text-7xl text-sky-500 group-hover:text-white transition-colors duration-300" />
               <h1 className="font-[700] pt-5">Delivery Services</h1>
             </div>
-            <div className="h-full shadow-2xl text-center flex flex-col items-center justify-center align-middle py-5 mb-10 group  hover:bg-[#59ab6e] hover:text-white transition-colors duration-300 ">
-              <FaArrowRightArrowLeft className="text-6xl text-[#59ab6e] group-hover:text-white transition-colors duration-300" />
+            <div className="h-full shadow-2xl text-center flex flex-col items-center justify-center align-middle py-5 mb-10 group  hover:bg-sky-500 hover:text-white transition-colors duration-300 ">
+              <FaArrowRightArrowLeft className="text-6xl text-sky-500 group-hover:text-white transition-colors duration-300" />
               <h1 className="font-[700] pt-6">Shipping & Return</h1>
             </div>
 
-            <div className="h-full shadow-2xl text-center flex flex-col items-center justify-center align-middle py-5 mb-10 group  hover:bg-[#59ab6e] hover:text-white transition-colors duration-300">
-              <FaPercent className="text-6xl text-[#59ab6e] group-hover:text-white transition-colors duration-300" />
+            <div className="h-full shadow-2xl text-center flex flex-col items-center justify-center align-middle py-5 mb-10 group  hover:bg-sky-500 hover:text-white transition-colors duration-300">
+              <FaPercent className="text-6xl text-sky-500 group-hover:text-white transition-colors duration-300" />
               <h1 className="font-[700]  pt-6">Promotion</h1>
             </div>
 
-            <div className="h-full shadow-2xl text-center flex flex-col items-center justify-center align-middle py-5 mb-10 group  hover:bg-[#59ab6e] hover:text-white transition-colors duration-300">
-              <FaUser  className="text-6xl text-[#59ab6e] group-hover:text-white transition-colors duration-300" />
+            <div className="h-full shadow-2xl text-center flex flex-col items-center justify-center align-middle py-5 mb-10 group  hover:bg-sky-500 hover:text-white transition-colors duration-300">
+              <FaUser  className="text-6xl text-sky-500 group-hover:text-white transition-colors duration-300" />
               <h1 className="font-[700]  pt-5">Delivery Services</h1>
             </div>
           </div>

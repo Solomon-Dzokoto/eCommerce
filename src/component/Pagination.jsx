@@ -17,7 +17,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
           <button
             className={`page-link rounded-0 mr-3 px-6 py-4 shadow-lg border-2   ${
               index + 1 === currentPage
-                ? "bg-green-600 text-white"
+                ? "bg-sky-500 text-white"
                 : "bg-white text-dark"
             }`}
             onClick={() => handlePageChange(index + 1)}

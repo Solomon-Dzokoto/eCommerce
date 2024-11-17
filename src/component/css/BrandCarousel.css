@@ -1,0 +1,11 @@
+.brand-img img {
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: filter 0.5s, opacity 0.5s;
+}
+
+.brand-img img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  cursor: pointer;
+}

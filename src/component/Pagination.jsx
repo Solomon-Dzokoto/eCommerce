@@ -4,6 +4,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
   const handlePageChange = (page) => {
     if (page !== currentPage) {
       onPageChange(page);
+      console.log(page)
     }
   };
 
